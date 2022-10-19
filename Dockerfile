@@ -1,4 +1,4 @@
- FROM nginx
+ FROM nginx AS acrmanagedpub.azurecr.io/nginx:latest
  
  RUN apt-get update && apt-get upgrade -y
  
